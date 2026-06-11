@@ -1,1 +1,116 @@
 @import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;600;700;900&family=Ruda:wght@600;700;800;900&display=swap");
+
+:root {
+  --text-color-primary: #1F1E1F;
+  /* Default text color (alias for  theme switching) */
+  --text-color-default: var(--text-color-primary);
+
+  /* Primary */
+  --primary-100: #EDE2F3;
+  --primary-200: #D9C7E5;
+  --primary-300: #BD9CD3;
+  --primary-400: #9A67BD;
+  --primary-500: #7C3DA4;
+  --primary-600: #633183;
+  --primary-700: #5A2D76;
+  --primary-800: #431F5B;
+  --primary-900: #2D153D;
+
+  /* Neutral  */
+  --neutral-100: #E7EEEA;
+  --neutral-200: #CFDDD5;
+  --neutral-300: #B8CCC0;
+  --neutral-400: #95B2A2;
+  --neutral-500: #7DA18E;
+  --neutral-600: #6C897B;
+  --neutral-700: #51675C;
+  --neutral-800: #36453D;
+  --neutral-900: #242E28;
+  --white: #FCFFFE;
+  --black: #1F1E1F;
+
+  /* System */
+  --error-light: #881212;
+  --error-dark: #FF8A80;
+  --success-light: #1B5E20;
+  --success-dark: #81C784;
+  --info-light: #0D47A1;
+  --info-dark: #64B5F6;
+  --warning-light: #FFC107;
+  --warning-dark: #FFD740;
+
+  /* Accent */
+  --accent-100: #E7F8C9;
+  --accent-200: #D8F3A5;
+  --accent-300: #C8EE81;
+  --accent-400: #B5E853;
+  --accent-500: #A8E43A;
+  --accent-600: #96D71D;
+  --accent-700: #8AC51B;
+  --accent-800: #7DB418;
+  --accent-900: #71A216;
+
+  /* Typography */
+  --font-title: "Ruda", sans-serif;
+  --font-text: "Lato", sans-serif;
+
+  --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
+  --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
+  --font-size-xs:  clamp(0.8rem, 0.9vw, 14px);
+  --font-size-sm:  clamp(0.9rem, 1vw, 16px);
+  --font-size-md:  clamp(1rem, 1.2vw, 18px);
+  --font-size-lg:  clamp(1.125rem, 1.4vw, 20px);
+  --font-size-xl:  clamp(1.25rem, 1.6vw, 24px);
+  --font-size-2xl: clamp(1.5rem, 2vw, 28px);
+  --font-size-3xl: clamp(1.75rem, 2.4vw, 32px);
+  --font-size-4xl: clamp(2rem, 2.8vw, 36px);
+  --font-size-5xl: clamp(2.25rem, 3.2vw, 40px);
+  --font-size-6xl: clamp(2.5rem, 3.6vw, 44px);
+  --font-size-7xl: clamp(2.75rem, 4vw, 48px);
+  --font-size-8xl: clamp(3.5rem, 5vw, 56px);
+  --font-size-9xl: clamp(4.25rem, 6vw, 68px);
+
+  /* General utilities */
+  --bottom-nav-height: 72px;
+}
+
+/* Resets */
+html {
+  box-sizing: border-box;
+  overflow-y: auto; 
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+}
+
+/* Fix nesting padding in containers */
+.container-padding {
+  padding: 0 16px !important;
+}
+
+/* Fix padding container in bottom sheets */
+.bottom-sheet-container {
+  padding: 36px 24px !important;
+}
+
+/* Fixes necesarios */
+button.v-btn {
+  cursor: pointer;
+}
+
+/* Override to make selects equal height to VDateInput on dialog */
+.v-select .v-field__input {
+  min-height: 56px !important;
+}
