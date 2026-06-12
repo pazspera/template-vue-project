@@ -471,12 +471,12 @@ body {
 }
 
 /* Theme styles */
-:is(.theme-one .theme-two .theme-three, .theme-four, .theme-five, .theme-six) :is(h1,h2,h3,h4,h5,h6, thead) {
-    font-family: var(--font-title)!important;
+:is(.theme-one, .theme-two, .theme-three, .theme-four, .theme-five, .theme-six) :is(h1, h2, h3, h4, h5, h6, thead) {
+    font-family: var(--font-title) !important;
 }
 
-:is(.theme-one .theme-two .theme-three) :is(p, span, a, li, tbody) {
-    font-family: var(--font-title)!important;
+:is(.theme-one, .theme-two, .theme-three, .theme-four, .theme-five, .theme-six) :is(p, span, a, li, tbody) {
+    font-family: var(--font-text) !important;
 }
 
 
