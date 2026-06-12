@@ -5,6 +5,19 @@
   /* Default text color (alias for  theme switching) */
   --text-color-default: var(--text-color-primary);
 
+  /* Neutral  */
+  --neutral-100: #E7EEEA;
+  --neutral-200: #CFDDD5;
+  --neutral-300: #B8CCC0;
+  --neutral-400: #95B2A2;
+  --neutral-500: #7DA18E;
+  --neutral-600: #6C897B;
+  --neutral-700: #51675C;
+  --neutral-800: #36453D;
+  --neutral-900: #242E28;
+  --white: #FCFFFE;
+  --black: #1F1E1F;
+
   /* System */
   --error-light: #881212;
   --error-dark: #FF8A80;
@@ -37,39 +50,26 @@
 
 .theme-one {
   /* Primary */
-  --primary-100: #EDE2F3;
-  --primary-200: #D9C7E5;
-  --primary-300: #BD9CD3;
-  --primary-400: #9A67BD;
-  --primary-500: #7C3DA4;
-  --primary-600: #633183;
-  --primary-700: #5A2D76;
-  --primary-800: #431F5B;
-  --primary-900: #2D153D;
-
-  /* Neutral  */
-  --neutral-100: #E7EEEA;
-  --neutral-200: #CFDDD5;
-  --neutral-300: #B8CCC0;
-  --neutral-400: #95B2A2;
-  --neutral-500: #7DA18E;
-  --neutral-600: #6C897B;
-  --neutral-700: #51675C;
-  --neutral-800: #36453D;
-  --neutral-900: #242E28;
-  --white: #FCFFFE;
-  --black: #1F1E1F;
+  --primary-100: #F5FCF0;
+  --primary-200: #DFF7CD;
+  --primary-300: #C8F1AA;
+  --primary-400: #B2EB87;
+  --primary-500: #9BE564;
+  --primary-600: #7CDD34;
+  --primary-700: #61BA1F;
+  --primary-800: #488A17;
+  --primary-900: #2F5A0F;
 
   /* Accent */
-  --accent-100: #E7F8C9;
-  --accent-200: #D8F3A5;
-  --accent-300: #C8EE81;
-  --accent-400: #B5E853;
-  --accent-500: #A8E43A;
-  --accent-600: #96D71D;
-  --accent-700: #8AC51B;
-  --accent-800: #7DB418;
-  --accent-900: #71A216;
+  --accent-100: #F2DA9F;
+  --accent-200: #EDCB7C;
+  --accent-300: #E8BD58;
+  --accent-400: #E3AF34;
+  --accent-500: #D19C1D;
+  --accent-600: #A07716;
+  --accent-700: #6E520F;
+  --accent-800: #3D2E08;
+  --accent-900: #0C0902;
 
   /* Typography */
   --font-title: "Fjalla One", sans-serif;
@@ -78,39 +78,26 @@
 
 .theme-two {
   /* Primary */
-  --primary-100: #EDE2F3;
-  --primary-200: #D9C7E5;
-  --primary-300: #BD9CD3;
-  --primary-400: #9A67BD;
-  --primary-500: #7C3DA4;
-  --primary-600: #633183;
-  --primary-700: #5A2D76;
-  --primary-800: #431F5B;
-  --primary-900: #2D153D;
-
-  /* Neutral  */
-  --neutral-100: #E7EEEA;
-  --neutral-200: #CFDDD5;
-  --neutral-300: #B8CCC0;
-  --neutral-400: #95B2A2;
-  --neutral-500: #7DA18E;
-  --neutral-600: #6C897B;
-  --neutral-700: #51675C;
-  --neutral-800: #36453D;
-  --neutral-900: #242E28;
-  --white: #FCFFFE;
-  --black: #1F1E1F;
+  --primary-100: #F5DAB8;
+  --primary-200: #EFC894;
+  --primary-300: #EAB670;
+  --primary-400: #E5A34D;
+  --primary-500: #E09129;
+  --primary-600: #B6731A;
+  --primary-700: #855413;
+  --primary-800: #54350C;
+  --primary-900: #231605;
 
   /* Accent */
-  --accent-100: #E7F8C9;
-  --accent-200: #D8F3A5;
-  --accent-300: #C8EE81;
-  --accent-400: #B5E853;
-  --accent-500: #A8E43A;
-  --accent-600: #96D71D;
-  --accent-700: #8AC51B;
-  --accent-800: #7DB418;
-  --accent-900: #71A216;
+  --accent-100: #97CDBC;
+  --accent-200: #7CBFAA;
+  --accent-300: #60B299;
+  --accent-400: #4C9D84;
+  --accent-500: #3F826D;
+  --accent-600: #2D5C4D;
+  --accent-700: #1A362E;
+  --accent-800: #142922;
+  --accent-900: #0D1B17;
 
   /* Typography */
   --font-title: "Yeseva One", sans-serif;
@@ -119,39 +106,26 @@
 
 .theme-three {
   /* Primary */
-  --primary-100: #EDE2F3;
-  --primary-200: #D9C7E5;
-  --primary-300: #BD9CD3;
-  --primary-400: #9A67BD;
-  --primary-500: #7C3DA4;
-  --primary-600: #633183;
-  --primary-700: #5A2D76;
-  --primary-800: #431F5B;
-  --primary-900: #2D153D;
-
-  /* Neutral  */
-  --neutral-100: #E7EEEA;
-  --neutral-200: #CFDDD5;
-  --neutral-300: #B8CCC0;
-  --neutral-400: #95B2A2;
-  --neutral-500: #7DA18E;
-  --neutral-600: #6C897B;
-  --neutral-700: #51675C;
-  --neutral-800: #36453D;
-  --neutral-900: #242E28;
-  --white: #FCFFFE;
-  --black: #1F1E1F;
+  --primary-100: #F4F4F0;
+  --primary-200: #E2E2D9;
+  --primary-300: #D0D0C2;
+  --primary-400: #BEBFAB;
+  --primary-500: #ACAD94;
+  --primary-600: #939574;
+  --primary-700: #75765B;
+  --primary-800: #565642;
+  --primary-900: #36372A;
 
   /* Accent */
-  --accent-100: #E7F8C9;
-  --accent-200: #D8F3A5;
-  --accent-300: #C8EE81;
-  --accent-400: #B5E853;
-  --accent-500: #A8E43A;
-  --accent-600: #96D71D;
-  --accent-700: #8AC51B;
-  --accent-800: #7DB418;
-  --accent-900: #71A216;
+  --accent-100: #8FAEA6;
+  --accent-200: #83A59D;
+  --accent-300: #6C948A;
+  --accent-400: #5A7C74;
+  --accent-500: #49655E;
+  --accent-600: #384D48;
+  --accent-700: #202D2A;
+  --accent-800: #2B3B37;
+  --accent-900: #222F2C;
 
   /* Typography */
   --font-title: "Spectral", sans-serif;
@@ -160,39 +134,26 @@
 
 .theme-four {
   /* Primary */
-  --primary-100: #EDE2F3;
-  --primary-200: #D9C7E5;
-  --primary-300: #BD9CD3;
-  --primary-400: #9A67BD;
-  --primary-500: #7C3DA4;
-  --primary-600: #633183;
-  --primary-700: #5A2D76;
-  --primary-800: #431F5B;
-  --primary-900: #2D153D;
-
-  /* Neutral  */
-  --neutral-100: #E7EEEA;
-  --neutral-200: #CFDDD5;
-  --neutral-300: #B8CCC0;
-  --neutral-400: #95B2A2;
-  --neutral-500: #7DA18E;
-  --neutral-600: #6C897B;
-  --neutral-700: #51675C;
-  --neutral-800: #36453D;
-  --neutral-900: #242E28;
-  --white: #FCFFFE;
-  --black: #1F1E1F;
+  --primary-100: #CDB4A3;
+  --primary-200: #BE9F88;
+  --primary-300: #B0896E;
+  --primary-400: #9E7456;
+  --primary-500: #846148;
+  --primary-600: #604634;
+  --primary-700: #3B2C20;
+  --primary-800: #423124;
+  --primary-900: #271D16;
 
   /* Accent */
-  --accent-100: #E7F8C9;
-  --accent-200: #D8F3A5;
-  --accent-300: #C8EE81;
-  --accent-400: #B5E853;
-  --accent-500: #A8E43A;
-  --accent-600: #96D71D;
-  --accent-700: #8AC51B;
-  --accent-800: #7DB418;
-  --accent-900: #71A216;
+  --accent-100: #FACEBC;
+  --accent-200: #F8B196;
+  --accent-300: #F5956F;
+  --accent-400: #F37949;
+  --accent-500: #F05D23;
+  --accent-600: #CD440E;
+  --accent-700: #98330A;
+  --accent-800: #642107;
+  --accent-900: #2F1003;
 
   /* Typography */
   --font-title: "Ubuntu", sans-serif;
@@ -201,39 +162,26 @@
 
 .theme-five{
   /* Primary */
-  --primary-100: #EDE2F3;
-  --primary-200: #D9C7E5;
-  --primary-300: #BD9CD3;
-  --primary-400: #9A67BD;
-  --primary-500: #7C3DA4;
-  --primary-600: #633183;
-  --primary-700: #5A2D76;
-  --primary-800: #431F5B;
-  --primary-900: #2D153D;
-
-  /* Neutral  */
-  --neutral-100: #E7EEEA;
-  --neutral-200: #CFDDD5;
-  --neutral-300: #B8CCC0;
-  --neutral-400: #95B2A2;
-  --neutral-500: #7DA18E;
-  --neutral-600: #6C897B;
-  --neutral-700: #51675C;
-  --neutral-800: #36453D;
-  --neutral-900: #242E28;
-  --white: #FCFFFE;
-  --black: #1F1E1F;
+  --primary-100: #C5FCD8;
+  --primary-200: #9FFABF;
+  --primary-300: #78F7A5;
+  --primary-400: #52F58B;
+  --primary-500: #2BF371;
+  --primary-600: #0CDA54;
+  --primary-700: #09A440;
+  --primary-800: #066F2B;
+  --primary-900: #033A17;
 
   /* Accent */
-  --accent-100: #E7F8C9;
-  --accent-200: #D8F3A5;
-  --accent-300: #C8EE81;
-  --accent-400: #B5E853;
-  --accent-500: #A8E43A;
-  --accent-600: #96D71D;
-  --accent-700: #8AC51B;
-  --accent-800: #7DB418;
-  --accent-900: #71A216;
+  --accent-100: #F6E5B7;
+  --accent-200: #F4DFA4;
+  --accent-300: #EFD280;
+  --accent-400: #EBC55C;
+  --accent-500: #E6B838;
+  --accent-600: #DAA71B;
+  --accent-700: #A88115;
+  --accent-800: #765B0F;
+  --accent-900: #5B460B;
 
   /* Typography */
   --font-title: "Ultra", sans-serif;
@@ -242,39 +190,26 @@
 
 .theme-six{
   /* Primary */
-  --primary-100: #EDE2F3;
-  --primary-200: #D9C7E5;
-  --primary-300: #BD9CD3;
-  --primary-400: #9A67BD;
-  --primary-500: #7C3DA4;
-  --primary-600: #633183;
-  --primary-700: #5A2D76;
-  --primary-800: #431F5B;
-  --primary-900: #2D153D;
-
-  /* Neutral  */
-  --neutral-100: #E7EEEA;
-  --neutral-200: #CFDDD5;
-  --neutral-300: #B8CCC0;
-  --neutral-400: #95B2A2;
-  --neutral-500: #7DA18E;
-  --neutral-600: #6C897B;
-  --neutral-700: #51675C;
-  --neutral-800: #36453D;
-  --neutral-900: #242E28;
-  --white: #FCFFFE;
-  --black: #1F1E1F;
+  --primary-100: #E8D9C5;
+  --primary-200: #E2D0B6;
+  --primary-300: #D7BD99;
+  --primary-400: #CBAA7B;
+  --primary-500: #C0975E;
+  --primary-600: #B08345;
+  --primary-700: #886535;
+  --primary-800: #5F4725;
+  --primary-900: #372916;
 
   /* Accent */
-  --accent-100: #E7F8C9;
-  --accent-200: #D8F3A5;
-  --accent-300: #C8EE81;
-  --accent-400: #B5E853;
-  --accent-500: #A8E43A;
-  --accent-600: #96D71D;
-  --accent-700: #8AC51B;
-  --accent-800: #7DB418;
-  --accent-900: #71A216;
+  --accent-100: #F5BBB6;
+  --accent-200: #F3AAA4;
+  --accent-300: #EE8880;
+  --accent-400: #E9665D;
+  --accent-500: #E44539;
+  --accent-600: #D72A1D;
+  --accent-700: #A62016;
+  --accent-800: #741710;
+  --accent-900: #430D09;
 
   /* Typography */
   --font-title: "Cabin", sans-serif;
