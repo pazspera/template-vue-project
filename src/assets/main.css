@@ -1,10 +1,41 @@
 @import "tailwindcss";
 
-.theme-one {
+:root {
   --text-color-primary: #1F1E1F;
   /* Default text color (alias for  theme switching) */
   --text-color-default: var(--text-color-primary);
 
+  /* System */
+  --error-light: #881212;
+  --error-dark: #FF8A80;
+  --success-light: #1B5E20;
+  --success-dark: #81C784;
+  --info-light: #0D47A1;
+  --info-dark: #64B5F6;
+  --warning-light: #FFC107;
+  --warning-dark: #FFD740;
+
+  --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
+  --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
+  --font-size-xs:  clamp(0.8rem, 0.9vw, 14px);
+  --font-size-sm:  clamp(0.9rem, 1vw, 16px);
+  --font-size-md:  clamp(1rem, 1.2vw, 18px);
+  --font-size-lg:  clamp(1.125rem, 1.4vw, 20px);
+  --font-size-xl:  clamp(1.25rem, 1.6vw, 24px);
+  --font-size-2xl: clamp(1.5rem, 2vw, 28px);
+  --font-size-3xl: clamp(1.75rem, 2.4vw, 32px);
+  --font-size-4xl: clamp(2rem, 2.8vw, 36px);
+  --font-size-5xl: clamp(2.25rem, 3.2vw, 40px);
+  --font-size-6xl: clamp(2.5rem, 3.6vw, 44px);
+  --font-size-7xl: clamp(2.75rem, 4vw, 48px);
+  --font-size-8xl: clamp(3.5rem, 5vw, 56px);
+  --font-size-9xl: clamp(4.25rem, 6vw, 68px);
+
+  /* General utilities */
+  --bottom-nav-height: 72px;
+}
+
+.theme-one {
   /* Primary */
   --primary-100: #EDE2F3;
   --primary-200: #D9C7E5;
@@ -28,16 +59,6 @@
   --neutral-900: #242E28;
   --white: #FCFFFE;
   --black: #1F1E1F;
-
-  /* System */
-  --error-light: #881212;
-  --error-dark: #FF8A80;
-  --success-light: #1B5E20;
-  --success-dark: #81C784;
-  --info-light: #0D47A1;
-  --info-dark: #64B5F6;
-  --warning-light: #FFC107;
-  --warning-dark: #FFD740;
 
   /* Accent */
   --accent-100: #E7F8C9;
@@ -53,32 +74,9 @@
   /* Typography */
   --font-title: "Fjalla One", sans-serif;
   --font-text: "Libre Baskerville", serif;;
-
-  --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
-  --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
-  --font-size-xs:  clamp(0.8rem, 0.9vw, 14px);
-  --font-size-sm:  clamp(0.9rem, 1vw, 16px);
-  --font-size-md:  clamp(1rem, 1.2vw, 18px);
-  --font-size-lg:  clamp(1.125rem, 1.4vw, 20px);
-  --font-size-xl:  clamp(1.25rem, 1.6vw, 24px);
-  --font-size-2xl: clamp(1.5rem, 2vw, 28px);
-  --font-size-3xl: clamp(1.75rem, 2.4vw, 32px);
-  --font-size-4xl: clamp(2rem, 2.8vw, 36px);
-  --font-size-5xl: clamp(2.25rem, 3.2vw, 40px);
-  --font-size-6xl: clamp(2.5rem, 3.6vw, 44px);
-  --font-size-7xl: clamp(2.75rem, 4vw, 48px);
-  --font-size-8xl: clamp(3.5rem, 5vw, 56px);
-  --font-size-9xl: clamp(4.25rem, 6vw, 68px);
-
-  /* General utilities */
-  --bottom-nav-height: 72px;
 }
 
 .theme-two {
-  --text-color-primary: #1F1E1F;
-  /* Default text color (alias for  theme switching) */
-  --text-color-default: var(--text-color-primary);
-
   /* Primary */
   --primary-100: #EDE2F3;
   --primary-200: #D9C7E5;
@@ -102,16 +100,6 @@
   --neutral-900: #242E28;
   --white: #FCFFFE;
   --black: #1F1E1F;
-
-  /* System */
-  --error-light: #881212;
-  --error-dark: #FF8A80;
-  --success-light: #1B5E20;
-  --success-dark: #81C784;
-  --info-light: #0D47A1;
-  --info-dark: #64B5F6;
-  --warning-light: #FFC107;
-  --warning-dark: #FFD740;
 
   /* Accent */
   --accent-100: #E7F8C9;
@@ -127,32 +115,9 @@
   /* Typography */
   --font-title: "Yeseva One", sans-serif;
   --font-text: "Josefin Sans", serif;;
-
-  --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
-  --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
-  --font-size-xs:  clamp(0.8rem, 0.9vw, 14px);
-  --font-size-sm:  clamp(0.9rem, 1vw, 16px);
-  --font-size-md:  clamp(1rem, 1.2vw, 18px);
-  --font-size-lg:  clamp(1.125rem, 1.4vw, 20px);
-  --font-size-xl:  clamp(1.25rem, 1.6vw, 24px);
-  --font-size-2xl: clamp(1.5rem, 2vw, 28px);
-  --font-size-3xl: clamp(1.75rem, 2.4vw, 32px);
-  --font-size-4xl: clamp(2rem, 2.8vw, 36px);
-  --font-size-5xl: clamp(2.25rem, 3.2vw, 40px);
-  --font-size-6xl: clamp(2.5rem, 3.6vw, 44px);
-  --font-size-7xl: clamp(2.75rem, 4vw, 48px);
-  --font-size-8xl: clamp(3.5rem, 5vw, 56px);
-  --font-size-9xl: clamp(4.25rem, 6vw, 68px);
-
-  /* General utilities */
-  --bottom-nav-height: 72px;
 }
 
 .theme-three {
-  --text-color-primary: #1F1E1F;
-  /* Default text color (alias for  theme switching) */
-  --text-color-default: var(--text-color-primary);
-
   /* Primary */
   --primary-100: #EDE2F3;
   --primary-200: #D9C7E5;
@@ -176,16 +141,6 @@
   --neutral-900: #242E28;
   --white: #FCFFFE;
   --black: #1F1E1F;
-
-  /* System */
-  --error-light: #881212;
-  --error-dark: #FF8A80;
-  --success-light: #1B5E20;
-  --success-dark: #81C784;
-  --info-light: #0D47A1;
-  --info-dark: #64B5F6;
-  --warning-light: #FFC107;
-  --warning-dark: #FFD740;
 
   /* Accent */
   --accent-100: #E7F8C9;
@@ -201,29 +156,9 @@
   /* Typography */
   --font-title: "Spectral", sans-serif;
   --font-text: "Karla", serif;;
-
-  --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
-  --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
-  --font-size-xs:  clamp(0.8rem, 0.9vw, 14px);
-  --font-size-sm:  clamp(0.9rem, 1vw, 16px);
-  --font-size-md:  clamp(1rem, 1.2vw, 18px);
-  --font-size-lg:  clamp(1.125rem, 1.4vw, 20px);
-  --font-size-xl:  clamp(1.25rem, 1.6vw, 24px);
-  --font-size-2xl: clamp(1.5rem, 2vw, 28px);
-  --font-size-3xl: clamp(1.75rem, 2.4vw, 32px);
-  --font-size-4xl: clamp(2rem, 2.8vw, 36px);
-  --font-size-5xl: clamp(2.25rem, 3.2vw, 40px);
-  --font-size-6xl: clamp(2.5rem, 3.6vw, 44px);
-  --font-size-7xl: clamp(2.75rem, 4vw, 48px);
-  --font-size-8xl: clamp(3.5rem, 5vw, 56px);
-  --font-size-9xl: clamp(4.25rem, 6vw, 68px);
 }
 
 .theme-four {
-  --text-color-primary: #1F1E1F;
-  /* Default text color (alias for  theme switching) */
-  --text-color-default: var(--text-color-primary);
-
   /* Primary */
   --primary-100: #EDE2F3;
   --primary-200: #D9C7E5;
@@ -247,16 +182,6 @@
   --neutral-900: #242E28;
   --white: #FCFFFE;
   --black: #1F1E1F;
-
-  /* System */
-  --error-light: #881212;
-  --error-dark: #FF8A80;
-  --success-light: #1B5E20;
-  --success-dark: #81C784;
-  --info-light: #0D47A1;
-  --info-dark: #64B5F6;
-  --warning-light: #FFC107;
-  --warning-dark: #FFD740;
 
   /* Accent */
   --accent-100: #E7F8C9;
@@ -272,32 +197,9 @@
   /* Typography */
   --font-title: "Ubuntu", sans-serif;
   --font-text: "Open Sans", serif;;
-
-  --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
-  --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
-  --font-size-xs:  clamp(0.8rem, 0.9vw, 14px);
-  --font-size-sm:  clamp(0.9rem, 1vw, 16px);
-  --font-size-md:  clamp(1rem, 1.2vw, 18px);
-  --font-size-lg:  clamp(1.125rem, 1.4vw, 20px);
-  --font-size-xl:  clamp(1.25rem, 1.6vw, 24px);
-  --font-size-2xl: clamp(1.5rem, 2vw, 28px);
-  --font-size-3xl: clamp(1.75rem, 2.4vw, 32px);
-  --font-size-4xl: clamp(2rem, 2.8vw, 36px);
-  --font-size-5xl: clamp(2.25rem, 3.2vw, 40px);
-  --font-size-6xl: clamp(2.5rem, 3.6vw, 44px);
-  --font-size-7xl: clamp(2.75rem, 4vw, 48px);
-  --font-size-8xl: clamp(3.5rem, 5vw, 56px);
-  --font-size-9xl: clamp(4.25rem, 6vw, 68px);
-
-  /* General utilities */
-  --bottom-nav-height: 72px;
 }
 
 .theme-five{
-  --text-color-primary: #1F1E1F;
-  /* Default text color (alias for  theme switching) */
-  --text-color-default: var(--text-color-primary);
-
   /* Primary */
   --primary-100: #EDE2F3;
   --primary-200: #D9C7E5;
@@ -321,16 +223,6 @@
   --neutral-900: #242E28;
   --white: #FCFFFE;
   --black: #1F1E1F;
-
-  /* System */
-  --error-light: #881212;
-  --error-dark: #FF8A80;
-  --success-light: #1B5E20;
-  --success-dark: #81C784;
-  --info-light: #0D47A1;
-  --info-dark: #64B5F6;
-  --warning-light: #FFC107;
-  --warning-dark: #FFD740;
 
   /* Accent */
   --accent-100: #E7F8C9;
@@ -346,32 +238,9 @@
   /* Typography */
   --font-title: "Ultra", sans-serif;
   --font-text: "Slabo 27px", serif;;
-
-  --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
-  --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
-  --font-size-xs:  clamp(0.8rem, 0.9vw, 14px);
-  --font-size-sm:  clamp(0.9rem, 1vw, 16px);
-  --font-size-md:  clamp(1rem, 1.2vw, 18px);
-  --font-size-lg:  clamp(1.125rem, 1.4vw, 20px);
-  --font-size-xl:  clamp(1.25rem, 1.6vw, 24px);
-  --font-size-2xl: clamp(1.5rem, 2vw, 28px);
-  --font-size-3xl: clamp(1.75rem, 2.4vw, 32px);
-  --font-size-4xl: clamp(2rem, 2.8vw, 36px);
-  --font-size-5xl: clamp(2.25rem, 3.2vw, 40px);
-  --font-size-6xl: clamp(2.5rem, 3.6vw, 44px);
-  --font-size-7xl: clamp(2.75rem, 4vw, 48px);
-  --font-size-8xl: clamp(3.5rem, 5vw, 56px);
-  --font-size-9xl: clamp(4.25rem, 6vw, 68px);
-
-  /* General utilities */
-  --bottom-nav-height: 72px;
 }
 
 .theme-six{
-  --text-color-primary: #1F1E1F;
-  /* Default text color (alias for  theme switching) */
-  --text-color-default: var(--text-color-primary);
-
   /* Primary */
   --primary-100: #EDE2F3;
   --primary-200: #D9C7E5;
@@ -396,16 +265,6 @@
   --white: #FCFFFE;
   --black: #1F1E1F;
 
-  /* System */
-  --error-light: #881212;
-  --error-dark: #FF8A80;
-  --success-light: #1B5E20;
-  --success-dark: #81C784;
-  --info-light: #0D47A1;
-  --info-dark: #64B5F6;
-  --warning-light: #FFC107;
-  --warning-dark: #FFD740;
-
   /* Accent */
   --accent-100: #E7F8C9;
   --accent-200: #D8F3A5;
@@ -420,41 +279,7 @@
   /* Typography */
   --font-title: "Cabin", sans-serif;
   --font-text: "Roboto Contensed", serif;;
-
-  --font-size-2xs: clamp(0.5rem, 0.7vw, 10px);
-  --font-size-xxs: clamp(0.7rem, 0.8vw, 12px);
-  --font-size-xs:  clamp(0.8rem, 0.9vw, 14px);
-  --font-size-sm:  clamp(0.9rem, 1vw, 16px);
-  --font-size-md:  clamp(1rem, 1.2vw, 18px);
-  --font-size-lg:  clamp(1.125rem, 1.4vw, 20px);
-  --font-size-xl:  clamp(1.25rem, 1.6vw, 24px);
-  --font-size-2xl: clamp(1.5rem, 2vw, 28px);
-  --font-size-3xl: clamp(1.75rem, 2.4vw, 32px);
-  --font-size-4xl: clamp(2rem, 2.8vw, 36px);
-  --font-size-5xl: clamp(2.25rem, 3.2vw, 40px);
-  --font-size-6xl: clamp(2.5rem, 3.6vw, 44px);
-  --font-size-7xl: clamp(2.75rem, 4vw, 48px);
-  --font-size-8xl: clamp(3.5rem, 5vw, 56px);
-  --font-size-9xl: clamp(4.25rem, 6vw, 68px);
-
-  /* General utilities */
-  --bottom-nav-height: 72px;
 }
-
-/* Theme typography */
-/*
-.fjalla-one-regular {
-  font-family: "Fjalla One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.libre-baskerville {
-  font-family: "Libre Baskerville", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}*/
 
 /* Resets */
 html {
