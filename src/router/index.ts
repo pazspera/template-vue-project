@@ -1,3 +1,7 @@
+import DocsView from "@/views/DocsView.vue";
+import HomeView from "@/views/HomeView.vue";
+import ThemesView from "@/views/ThemesView.vue";
+import TypographyChart from "@/views/TypographyChart.vue";
 import { createMemoryHistory, createRouter, createWebHistory, type RouteRecordRaw } from "vue-router";
 
 export const routes: RouteRecordRaw[] = [
@@ -19,7 +23,7 @@ export const routes: RouteRecordRaw[] = [
     {
         path: "/typograpy-chart",
         name: "TypographyChart",
-        component: TypographyChartView
+        component: TypographyChart
     },
 ]
 

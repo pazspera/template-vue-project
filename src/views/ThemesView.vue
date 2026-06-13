@@ -4,7 +4,7 @@ import { DOCUMENT_TITLES } from '@/constants/documentTitles';
 
 defineOptions({ name: "ThemesView"})
 
-useDocumentTitle(DOCUMENT_TITLES)
+useDocumentTitle(DOCUMENT_TITLES.THEMES)
 </script>
 
 <template>
