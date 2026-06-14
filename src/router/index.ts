@@ -2,7 +2,7 @@ import DocsView from "@/views/DocsView.vue";
 import HomeView from "@/views/HomeView.vue";
 import ThemesView from "@/views/ThemesView.vue";
 import TypographyChart from "@/views/TypographyChart.vue";
-import { createMemoryHistory, createRouter, createWebHistory, type RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory, type RouteRecordRaw } from "vue-router";
 
 export const routes: RouteRecordRaw[] = [
     {
@@ -28,6 +28,6 @@ export const routes: RouteRecordRaw[] = [
 ]
 
 export const router = createRouter({
-    history: createMemoryHistory(),
+    history: createWebHistory(),
     routes
 })

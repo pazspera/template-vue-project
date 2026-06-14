@@ -17,7 +17,7 @@
           <li>Typography</li>
         </ul>
       </nav>
-      <routerview/>
+      <RouterView/>
     </div>
   </main>
 </template>
