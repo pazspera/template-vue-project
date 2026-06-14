@@ -1,20 +1,18 @@
 <script setup lang="ts">
+import NavBar from './components/orgamisms/NavBar.vue';
+
 
 </script>
 
 <template>
   <main>
-    
     <div class="container mx-auto px-4 my-8">
       <nav class="bg-blue-500 text-white p-4">NavBar
-        <ul>
+        <ul class="flex gap-3">
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/docs">Docs</RouterLink>
           <RouterLink to="/themes">Themes</RouterLink>
           <RouterLink to="/typograpy-chart">Typography Chart</RouterLink>
-          <li>Docs</li>
-          <li>Themes</li>
-          <li>Typography</li>
         </ul>
       </nav>
       <RouterView/>
