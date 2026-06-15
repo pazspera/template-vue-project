@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDocumentTitle } from '@/composable/useDocumentTitle';
+import { useDocumentTitle } from '@/composables/useDocumentTitle';
 import { DOCUMENT_TITLES } from '@/constants/documentTitles';
 
 defineOptions({ name: "DocsView"})
